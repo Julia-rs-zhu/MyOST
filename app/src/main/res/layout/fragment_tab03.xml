@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#2AFFFFFF"
+    android:orientation="vertical"
+    tools:context=".tab03Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="小朱"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:src="@drawable/me"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:background="@color/teal_700"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:text="通  知"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"
+        app:strokeColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:src="@drawable/xiaofan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="239dp"
+        android:layout_height="112dp"
+        android:text="国王排名爱了爱了，太赞了.波吉真可爱！！！！分享一波国王排名的OST"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="239dp"
+        android:layout_height="112dp"
+        android:text="1988太治愈了，超级爱。每一首OST都特触动热心，今日分享一波"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="43dp"
+        android:layout_height="26dp"
+        android:text="小罗"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="42dp"
+        android:layout_height="26dp"
+        android:text="小范"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="84dp"
+        android:layout_height="67dp"
+        android:src="@drawable/luo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
